@@ -39,6 +39,14 @@ ul {
 
 }
 
+.nomartiste {
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+}
+.divtopdroite {
+    margin-right: 150px!important;
+}
 /*ALBUM*/ 
 .albumartiste {
 
