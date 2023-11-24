@@ -1,0 +1,175 @@
+@media only screen and (min-width: 768px) {
+    .navbar {
+        background: #8164BD !important;
+        width: 95vw;
+        margin: auto;
+    }
+
+    .logobrandnav {
+        width: 214px;
+        height: auto
+    }
+
+    .rowgauchehaut {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .itemnav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .searchbar {
+        margin-top: 15px;
+        width: 60vw!important;
+    }
+    .itemgeneral {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .textebas {
+        display: flex;
+        flex-direction: row;
+        font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+    }
+
+    .navitemtop {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+    }
+
+    .logonav {
+        width: 40px;
+        margin-left: 10px;
+    }
+
+    .logonav2 {
+        width: 30px;
+    }
+
+    .boutonnav {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+    }
+
+    .itemdroit {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    button{
+        margin-top: 10px !important;
+        width: 180px !important;
+        height: 50px !important;
+    }
+
+}
+
+@media only screen and (max-width: 766px) {
+    .navbar {
+
+        margin: auto;
+    }
+
+    .navbar-collapse {
+        background: #8164BD !important;
+
+    }
+    .searchbar {
+       margin-bottom: 20px;
+    }
+
+    .logobrandnav {
+        width: 214px;
+        height: auto
+    }
+
+    .rowgauchehaut {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .itemnav {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+    }
+
+
+    .itemgeneral {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .textebas {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+color: white!important;
+    }
+
+    .navitemtop {
+        display: flex;
+        flex-direction: column;
+
+        font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+    }
+
+    .logonav {
+        width: 40px;
+        margin-left: 10px;
+    }
+
+    .logonav2 {
+        width: 30px;
+    }
+
+    .boutonnav {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+    }
+
+    .itemdroit {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px !important;
+
+    }
+
+    button{
+        margin-top: 10px !important;
+
+    }
+
+    .sup {
+        font-size: 0px !important;
+    }
+}
