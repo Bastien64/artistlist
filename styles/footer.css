@@ -1,0 +1,17 @@
+.logofooter {
+    width: 35px;
+    margin-right: 10px;
+}
+
+.buttonfooter {
+    margin-bottom: 15px;
+}
+
+.divdroitefooter {
+    display: flex; flex-direction: column;
+}
+
+.logofootersocial {
+    display: flex;
+    flex-direction: row;
+}
