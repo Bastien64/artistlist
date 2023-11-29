@@ -6,7 +6,7 @@
     }
 
     .logobrandnav {
-        width: 214px;
+        width: 175px;
         height: auto
     }
 
@@ -15,9 +15,10 @@
         flex-direction: row;
     }
 
-    .itemnav {
-        display: flex;
-        flex-direction: row;
+    #navbarNavAltMarkup, .itemnav {
+        display: flex!important;
+        flex-direction: row!important;
+        justify-content: space-around!important;
     }
 
     .searchbar {
@@ -69,15 +70,15 @@ line-height: normal;
 
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
 
     }
 
     button{
-        margin-top: 10px !important;
+        margin-top: 5px !important;
         width: 180px !important;
-        height: 50px !important;
+        height: 40px !important;
     }
 
 }
@@ -172,4 +173,6 @@ line-height: normal;
     .sup {
         font-size: 0px !important;
     }
+
+    
 }

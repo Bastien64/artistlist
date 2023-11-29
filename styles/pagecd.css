@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+
+@media only screen and (min-width: 768px) { 
+/* GENERAL */
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+h1 {
+    color: #1E1E1E;
+font-size: 75px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+}
+
+.colorgrey {
+    color: grey;
+}
+
+/* TOP */
+.divtop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+}
+
+.logotopdroite {
+    width: 40px!important;
+    margin-right: 25px!important;
+    margin-top: 10px!important;
+}
+
+
+.phototopgauche {
+    width: 749px;
+    height: 648px; 
+}
+
+
+
+
+
+ul {
+    list-style-type: none;
+
+}
+.nomcd {
+    font-size: 50px;
+    font-weight: 900;
+    text-align: start;
+}
+.nomartiste {
+    font-size: 40px;
+    font-weight: 900;
+    text-align: start;
+}
+.infocd {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.coldroite {
+    margin-left: 15px;
+}
+
+/*TRACKLIST*/
+
+.titletracklist {
+    margin-left: 150px;
+}
+.tracklist {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    margin-left: 25px;
+}
+.formatlogo {
+    width: 30px;
+    height: 30px;
+
+}
+.colsousphoto {
+    margin-left: 175px;
+}
+.youtube  {
+    margin-right: 15px;
+}
+
+.colsousphoto > h5 {
+    margin-top: 5px;
+}
+
+/*ALBUM*/ 
+ .card-title {
+    text-align: center;
+ }
+/*APPARITIONS*/
+
+
+}
+
+@media only screen and (max-width: 768px) { 
+    body {
+        font-family: 'Roboto', sans-serif !important;
+    }
+    h1 {
+        color: #1E1E1E;
+
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    }
+    
+    .colorgrey {
+        color: grey;
+    }
+    
+    /* TOP */
+    .divtop {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 25px;
+    
+    
+    }
+
+
+    .logotopdroite {
+        width: 40px!important;
+        margin-right: 25px!important;
+        margin-top: 10px!important;
+    }
+    
+    
+    .phototopgauche {
+        width: 100vw;
+    }
+    
+    h5{
+        font-size: 13px!important;
+    }
+    
+    
+    
+    ul {
+        list-style-type: none;
+    
+    }
+    .nomcd {
+        font-size: 50px;
+        font-weight: 900;
+        text-align: center;
+    }
+    .nomartiste {
+        font-size: 40px;
+        font-weight: 900;
+        text-align: center;
+    }
+    .infocd {
+        margin-left: 25px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .coldroite {
+        margin-left: 15px;
+    }
+
+    .followtheartist > h5 {
+        font-size: 20px!important;
+        margin-left: 25px!important;
+    }
+    
+    /*TRACKLIST*/
+    .titletracklist {
+        margin-left: 25px;
+    }
+    .tracklist {
+        display: flex;
+        flex-direction: row;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+    .formatlogo {
+        width: 30px;
+        height: 30px;
+    
+    }
+    
+    .youtube  {
+        margin-right: 15px;
+    }
+    
+    .colsousphoto > h5 {
+        margin-top: 5px;
+    }
+    
+    /*ALBUM*/ 
+     .card-title {
+        text-align: center;
+     }
+     .card {
+        border: white;
+     }
+    /*APPARITIONS*/
+    
+    
+}

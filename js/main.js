@@ -21,3 +21,9 @@ footerXhr.onreadystatechange = function () {
 footerXhr.send();
 
 
+function toggleParagraphs(className) {
+    var paragraphs = document.querySelectorAll('.' + className);
+    paragraphs.forEach(function(paragraph) {
+        paragraph.classList.toggle('hidden-on-mobile');
+    });
+}
