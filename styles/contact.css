@@ -1,16 +1,27 @@
+@font-face {
+    font-family: 'Calibri';
+    src: url('../police/calibri.ttf') format('truetype');
+    /* Ajoutez d'autres formats de police si nécessaire (e.g., woff, woff2) */
+}
+
+@font-face {
+    font-family: 'Calibribolt';
+    src: url('../police/calibri_bold.ttf') format('truetype');
+    /* Ajoutez d'autres formats de police si nécessaire (e.g., woff, woff2) */
+}
+
 @media only screen and (min-width: 767px) {
     h1 {
-        font-family: 'Roboto', sans-serif !important;
+        font-family: 'Calibri', sans-serif !important;
     }
 
     li {
-        font-family: 'Roboto', sans-serif !important;
+        font-family: 'Calibri', sans-serif !important;
     }
 
     .texte {
         color: #000;
-        font-family: 'Roboto', sans-serif !important;
-        font-size: 10px;
+        font-family: 'Calibri', sans-serif !important;        font-size: 10px;
         font-style: normal;
         font-weight: 500;
         line-height: normal;

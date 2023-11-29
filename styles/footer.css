@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'Calibri';
+    src: url('../police/calibri.ttf') format('truetype');
+    /* Ajoutez d'autres formats de police si nécessaire (e.g., woff, woff2) */
+}
+
+@font-face {
+    font-family: 'Calibribolt';
+    src: url('../police/calibri_bold.ttf') format('truetype');
+    /* Ajoutez d'autres formats de police si nécessaire (e.g., woff, woff2) */
+}
+
 .logofooter {
     width: 35px;
     margin-right: 10px;
