@@ -112,6 +112,10 @@ ul {
 }
 
 /*ALBUM*/ 
+
+.autrecd {
+    
+}
  .card-title {
     text-align: center;
  }
@@ -131,7 +135,10 @@ ul {
     font-weight: 700;
     line-height: normal; 
     }
-    
+    h3{
+        font-family: 'Calibribolt', sans-serif !important;
+        color: #1E1E1E;
+    }
     .colorgrey {
         color: grey;
     }

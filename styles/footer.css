@@ -10,6 +10,10 @@
     /* Ajoutez d'autres formats de police si nécessaire (e.g., woff, woff2) */
 }
 
+.titrefooter {
+    font-family: 'Calibribolt', sans-serif !important;
+}
+
 .logofooter {
     width: 35px;
     margin-right: 10px;
