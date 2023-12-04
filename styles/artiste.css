@@ -26,21 +26,27 @@ h2 {
     font-family: 'Calibribolt', sans-serif !important;
     color: #1E1E1E;
 }
-
+#navbarbox {
+    position: sticky;
+    top : 0px;
+}
 /* TOP */
 .divtop {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+
     margin-top: 50px;
     margin-bottom: 50px;
+}
 
-
+.divtopdroite {
+    margin-left: 50px;
 }
 .logotopdroite {
     width: 40px!important;
     margin-right: 25px!important;
-    margin-top: 10px!important;
+    align-items: center;
 }
 .phototopgauche {
     width: 749px;
@@ -49,6 +55,12 @@ h2 {
 
 ul {
     list-style-type: none;
+
+}
+
+li, .suivreariste {
+    font-size: 25px;
+    margin-top: 15px;
 
 }
 
@@ -68,12 +80,11 @@ ul {
 .album1, .album2,.album3 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
     margin-top: 50px;
 }
 
 .trait {
+    margin-left: 50px;
     width: 2px;
     height: 400px;
     background-color: #000000;
@@ -81,6 +92,7 @@ ul {
 }
 
 .textalbum {
+    margin-left: 50px;
     width: 500px;
 }
 
@@ -126,7 +138,7 @@ height: 400px;
     .divtop {
         display: flex;
         flex-direction: column;
-
+        
         margin-top: 15px;
         margin-bottom: 15px;
     

@@ -1,0 +1,19 @@
+.carroussel {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self:center;
+}
+
+.carousel-item > img {
+
+    height: 400px;
+    width: auto;
+    margin: 10px;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    margin-top: 150px!important;
+
+}

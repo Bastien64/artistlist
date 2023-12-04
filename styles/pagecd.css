@@ -11,68 +11,125 @@
 }
 
 
-@media only screen and (min-width: 768px) { 
-/* GENERAL */
-body {
-    font-family: 'Calibri', sans-serif !important;
-}
-h1 {
-    font-family: 'Calibribolt', sans-serif !important;
-    color: #1E1E1E;
-font-size: 75px;
-font-style: normal;
-font-weight: 700;
-line-height: normal; 
-}
-h3{
-    font-family: 'Calibribolt', sans-serif !important;
-    color: #1E1E1E;
-}
-.colorgrey {
-    color: grey;
+@media only screen and (min-width: 768px) {
+
+    /* GENERAL */
+    body {
+        font-family: 'Calibri', sans-serif !important;
+    }
+
+    h1 {
+        font-family: 'Calibribolt', sans-serif !important;
+        color: #1E1E1E;
+        font-size: 75px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    h3 {
+        font-family: 'Calibribolt', sans-serif !important;
+        color: #1E1E1E;
+    }
+
+    .colorgrey {
+        color: grey;
+    }
+
+    /* TOP */
+
+    .pic-1>img {
+        width: 500px !important;
+        height: 500px !important;
+    }
+
+
+.pic-2>img {
+    width: 500px !important;
+    height: 500px !important;
 }
 
-/* TOP */
+ul.gallery {
+    list-style: none;
+}
+
+ul.gallery li a {
+    position: absolute;
+    float: left;
+    padding: 10px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+ul.gallery li a.pic-1 {
+    z-index: 2;
+}
+
+ul.gallery li a.pic-2 {
+    z-index: 1;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    margin: 18px 0px 0px 25px;
+}
+
+ul.gallery li a:hover {
+    z-index: 20;
+}
+
 .divtop {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 50px;
     margin-bottom: 50px;
+}
 
+.divtopgauche {
+    width: 50%;
+}
 
+.divtopdroite {
+    margin-left: 50px;
 }
 
 .logotopdroite {
-    width: 40px!important;
-    margin-right: 25px!important;
-    margin-top: 10px!important;
+    width: 40px !important;
+    margin-right: 25px !important;
+    align-items: center;
 }
 
 
 .phototopgauche {
     width: 749px;
-    height: 648px; 
+    height: 648px;
 }
-
-
-
 
 
 ul {
     list-style-type: none;
 
 }
+
+li,
+.suivreariste,
+h5 {
+    font-size: 25px;
+    margin-top: 15px;
+
+}
+
 .nomcd {
     font-size: 50px;
     font-weight: 900;
     text-align: start;
 }
+
 .nomartiste {
     font-size: 40px;
     font-weight: 900;
     text-align: start;
 }
+
 .infocd {
     margin-top: 25px;
     margin-bottom: 50px;
@@ -86,106 +143,158 @@ ul {
 
 /*TRACKLIST*/
 
+
 .titletracklist {
     margin-left: 150px;
+    margin-top: -125px;
 }
+
 .tracklist {
     display: flex;
     flex-direction: row;
     margin-bottom: 50px;
     margin-left: 25px;
 }
+
 .formatlogo {
-    width: 30px;
-    height: 30px;
+    height: 20px;
+    width: auto;
+
 
 }
+
 .colsousphoto {
     margin-left: 175px;
 }
-.youtube  {
+
+.youtube {
     margin-right: 15px;
+    margin-left: 5px;
+    height: 30px;
+    width: auto;
 }
 
-.colsousphoto > h5 {
+.colsousphoto>h5 {
     margin-top: 5px;
 }
 
-/*ALBUM*/ 
+/*ALBUM*/
+
+.carousel-control-next,
+.carousel-control-prev {
+    margin-top: 100px !important;
+}
 
 .autrecd {
-    
+    margin-left: 50px;
 }
- .card-title {
+
+.card {
+    padding: 0;
+
+}
+
+.card-title {
     text-align: center;
- }
-/*APPARITIONS*/
-
-
 }
 
-@media only screen and (max-width: 768px) { 
+/*APPARITIONS*/
+}
+
+@media only screen and (max-width: 768px) {
     body {
         font-family: 'Roboto', sans-serif !important;
     }
+
     h1 {
         color: #1E1E1E;
 
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal; 
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
     }
-    h3{
+
+    h3 {
         font-family: 'Calibribolt', sans-serif !important;
         color: #1E1E1E;
     }
+
     .colorgrey {
         color: grey;
     }
-    
+
     /* TOP */
+    .pic-1>img {
+        width: 80vw !important;
+    }
+
+    .pic-2>img {
+        width: 0px !important;
+        height: 0px !important;
+    }
+
+    .cover,
+    .gallery {
+        display: flex!important;
+        flex-direction: row!important;
+        justify-content: center!important;
+        align-items: center!important;
+    }
+
+    ul.gallery li a.pic-1 {
+        z-index: 2;
+    }
+
+    ul.gallery li a:hover {
+        z-index: 20;
+    }
+
     .divtop {
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin-top: 50px;
         margin-bottom: 25px;
-    
-    
+
+
     }
 
 
     .logotopdroite {
-        width: 40px!important;
-        margin-right: 25px!important;
-        margin-top: 10px!important;
+        width: 40px !important;
+        margin-right: 25px !important;
+        align-items: center;
     }
-    
-    
+
     .phototopgauche {
         width: 100vw;
     }
-    
-    h5{
-        font-size: 13px!important;
+
+    li,
+    .suivreariste,
+    h5 {
+        font-size: 25px;
+        margin-top: 15px;
+
     }
-    
-    
-    
+
     ul {
         list-style-type: none;
-    
+
     }
+
     .nomcd {
         font-size: 50px;
         font-weight: 900;
         text-align: center;
     }
+
     .nomartiste {
         font-size: 40px;
         font-weight: 900;
         text-align: center;
     }
+
     .infocd {
         margin-left: 25px;
         margin-top: 25px;
@@ -193,48 +302,66 @@ ul {
         display: flex;
         flex-direction: row;
     }
-    
+
     .coldroite {
         margin-left: 15px;
     }
 
-    .followtheartist > h5 {
-        font-size: 20px!important;
-        margin-left: 25px!important;
-    }
-    
+
     /*TRACKLIST*/
     .titletracklist {
         margin-left: 25px;
     }
+
     .tracklist {
         display: flex;
         flex-direction: row;
         margin-top: 25px;
         margin-left: 25px;
+        margin-bottom: 50px;
     }
+
     .formatlogo {
-        width: 30px;
-        height: 30px;
-    
+        height: 20px;
+        width: auto;
+
+
     }
-    
-    .youtube  {
+
+    .youtube {
         margin-right: 15px;
+        margin-left: 5px;
+        height: 30px;
+        width: auto;
     }
-    
-    .colsousphoto > h5 {
+
+    .colsousphoto>h5 {
         margin-top: 5px;
+        font-size: 15px;
     }
-    
-    /*ALBUM*/ 
-     .card-title {
+
+    /*ALBUM*/
+
+    .autrecd {
+        margin-left: 25px;
+    }
+
+    .card-wrapper {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .card-title {
         text-align: center;
-     }
-     .card {
+    }
+
+    .card {
         border: white;
-     }
+    }
+
     /*APPARITIONS*/
-    
-    
+
+
 }
