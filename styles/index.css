@@ -17,3 +17,8 @@
     margin-top: 150px!important;
 
 }
+#navbarbox {
+    position: sticky;
+    top : 0px;
+    z-index: 99;
+}

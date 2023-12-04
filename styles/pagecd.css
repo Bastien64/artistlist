@@ -35,7 +35,11 @@
     .colorgrey {
         color: grey;
     }
-
+    #navbarbox {
+        position: sticky;
+        top : 0px;
+        z-index: 99;
+    }
     /* TOP */
 
     .pic-1>img {
