@@ -1,0 +1,16 @@
+.texttexte {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.text2texte {
+    width: 75%;
+    margin: auto;
+}
+
+.titretexte{
+    margin-top: 50px;
+}
