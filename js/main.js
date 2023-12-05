@@ -27,3 +27,14 @@ function toggleParagraphs(className) {
         paragraph.classList.toggle('hidden-on-mobile');
     });
 }
+
+function showPage(pageNumber, suffix = '') {
+    // Masquer toutes les pages d'albums
+    var albumPages = document.querySelectorAll('.album-page' + suffix);
+    albumPages.forEach(function (page) {
+        page.style.display = 'none';
+    });
+
+    // Afficher la page spécifiée
+    document.getElementById('page' + pageNumber + suffix).style.display = 'block';
+} 

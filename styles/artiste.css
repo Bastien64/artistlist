@@ -78,7 +78,13 @@ li, .suivreariste {
     margin: auto;
 }
 
-.album1, .album2,.album3 {
+.album1, .album2,.album3, .album4, .album5, .album6 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.album21, .album22,.album23, .album24, .album25, .album26 {
     display: flex;
     flex-direction: row;
     margin-top: 50px;
@@ -171,7 +177,7 @@ height: 400px;
         margin: auto;
     }
     
-    .album1, .album2,.album3 {
+    .album1, .album2,.album3, .album4, .album5, .album6 {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
