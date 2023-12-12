@@ -39,4 +39,8 @@
     h6 {
         cursor : pointer
     }
+    .logofootersocial {
+        margin: auto;
+        padding: 10px;
+    }
 }

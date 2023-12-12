@@ -1,20 +1,18 @@
 @font-face {
     font-family: 'Calibri';
     src: url('../police/calibri.ttf') format('truetype');
-    /* Ajoutez d'autres formats de police si nécessaire (e.g., woff, woff2) */
 }
 
 @font-face {
     font-family: 'Calibribolt';
     src: url('../police/calibri_bold.ttf') format('truetype');
-    /* Ajoutez d'autres formats de police si nécessaire (e.g., woff, woff2) */
 }
 
 @media only screen and (min-width: 768px) {
     .navbar {
         font-family: 'Calibri', sans-serif !important;
         background: #8164BD !important;
-        width: 95vw;
+        width: 100vw;
         margin: auto;
     }
 
@@ -28,16 +26,18 @@
         flex-direction: row;
     }
 
-    #navbarNavAltMarkup, .itemnav {
-        display: flex!important;
-        flex-direction: row!important;
-        justify-content: space-around!important;
+    #navbarNavAltMarkup,
+    .itemnav {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-around !important;
     }
 
     .searchbar {
         margin-top: 15px;
-        width: 60vw!important;
+        width: 60vw !important;
     }
+
     .itemgeneral {
         display: flex;
         flex-direction: column;
@@ -48,9 +48,9 @@
         display: flex;
         flex-direction: row;
         font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal; 
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
     }
 
     .navitemtop {
@@ -59,9 +59,9 @@ line-height: normal;
         justify-content: start;
         align-items: center;
         font-size: 15px;
-font-style: normal;
-font-weight: 700;
-line-height: normal; 
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
     }
 
     .logonav {
@@ -88,7 +88,7 @@ line-height: normal;
 
     }
 
-    button{
+    button {
         margin-top: 5px !important;
         width: 180px !important;
         height: 40px !important;
@@ -106,8 +106,9 @@ line-height: normal;
         background: #8164BD !important;
 
     }
+
     .searchbar {
-       margin-bottom: 20px;
+        margin-bottom: 20px;
     }
 
     .logobrandnav {
@@ -137,10 +138,10 @@ line-height: normal;
         display: flex;
         flex-direction: column;
         font-size: 15px;
-font-style: normal;
-font-weight: 700;
-line-height: normal; 
-color: white!important;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        color: white !important;
     }
 
     .navitemtop {
@@ -148,9 +149,9 @@ color: white!important;
         flex-direction: column;
 
         font-size: 15px;
-font-style: normal;
-font-weight: 700;
-line-height: normal; 
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
     }
 
     .logonav {
@@ -178,7 +179,7 @@ line-height: normal;
 
     }
 
-    button{
+    button {
         margin-top: 10px !important;
 
     }
@@ -187,5 +188,5 @@ line-height: normal;
         font-size: 0px !important;
     }
 
-    
+
 }

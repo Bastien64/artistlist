@@ -36,8 +36,9 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+
     margin-top: 50px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 
 .divtopdroite {
@@ -48,7 +49,6 @@ h2 {
     margin-right: 25px!important;
     align-items: center;
 }
-
 
 .pic-1>img {
     width: 500px !important;
@@ -96,10 +96,6 @@ ul {
 li, .suivreariste {
     font-size: 25px;
     margin-top: 15px;
-
-}
-.divtopgauche {
-    width: 50%;
 
 }
 
@@ -167,7 +163,14 @@ height: 400px;
         font-family: 'Calibribolt', sans-serif !important;
         color: #1E1E1E;}
     /* TOP */
-    .pic-1>img {
+
+    .nomartiste {
+        font-size: 40px;
+        text-align: center;
+    }
+    .divtopdroite {
+        margin-top: 15px;
+    }.pic-1>img {
         width: 80vw !important;
     }
 
@@ -201,19 +204,10 @@ height: 400px;
 
 
     }
-
-    .nomartiste {
-        font-size: 40px;
-        text-align: center;
-    }
-    .divtopdroite {
-        margin-top: 15px;
-    }
-
     .logotopdroite {
-        width: 40px !important;
-        margin-right: 25px !important;
-        align-items: center;
+        width: 40px!important;
+        margin-right: 25px!important;
+        margin-top: 10px!important;
     }
     .phototopgauche {
         width: 100vw;
@@ -225,20 +219,9 @@ height: 400px;
     
     }
 
-    .suivreartiste {
-        font-size:25px
-    }
-
-    li {
-        font-size: 25px;
-        margin-top: 15px;
-        align-items: center;
-    }
     .followtheartist {
         padding-left: 20px!important;
     }
-
-
 
     /*ALBUM*/ 
     .albumartiste {

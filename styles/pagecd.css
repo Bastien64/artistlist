@@ -93,7 +93,7 @@ ul.gallery li a:hover {
 }
 
 .divtopdroite {
-    margin-left: 50px;
+    margin-left: -100px;
 }
 
 .logotopdroite {
@@ -202,6 +202,21 @@ h5 {
     text-align: center;
 }
 
+.button {
+    height: 20px!important;
+}
+
+
+#carouselExampleControls,#carouselExampleControls2 {
+    height: 400px;
+}
+
+.carousel-indicators > button {
+    height: 10px!important;
+    width: 10px!important;
+    border-radius: 50%;
+
+}
 /*APPARITIONS*/
 }
 
@@ -265,7 +280,7 @@ h5 {
 
 
     .logotopdroite {
-        width: 40px !important;
+        width: 25px !important;
         margin-right: 25px !important;
         align-items: center;
     }
@@ -275,9 +290,8 @@ h5 {
     }
 
     li,
-    .suivreariste,
-    h5 {
-        font-size: 25px;
+    .suivreariste {
+        font-size: 20px;
         margin-top: 15px;
 
     }
@@ -300,17 +314,18 @@ h5 {
     }
 
     .infocd {
-        margin-left: 25px;
-        margin-top: 25px;
-        margin-bottom: 25px;
         display: flex;
         flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
     }
 
-    .coldroite {
-        margin-left: 15px;
-    }
 
+    .colgauche > h5, .coldroite > h5 {
+        font-size: 10px;
+    }
 
     /*TRACKLIST*/
     .titletracklist {
@@ -363,6 +378,13 @@ h5 {
 
     .card {
         border: white;
+    }
+
+    .carousel-indicators > button {
+        height: 10px!important;
+        width: 10px!important;
+        border-radius: 50%;
+    
     }
 
     /*APPARITIONS*/

@@ -1,3 +1,11 @@
+#navbarbox {
+    position: sticky;
+    top : 0px;
+    z-index: 99;
+}
+
+/* CAROUSEL */
+
 .carroussel {
 
     display: flex;
@@ -6,19 +14,26 @@
     align-self:center;
 }
 
-.carousel-item > img {
-
-    height: 400px;
-    width: auto;
-    margin: 10px;
+.carousel-controls-container {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
 }
 
-.carousel-control-next, .carousel-control-prev{
-    margin-top: 150px!important;
+
+
+.sizecarousel {
+    width: 800px!important;
 
 }
-#navbarbox {
-    position: sticky;
-    top : 0px;
-    z-index: 99;
+
+.carousel-indicators > button {
+    margin-top: 20px!important;
+    height: 10px!important;
+    width: 10px!important;
+    border-radius: 50%;
+
 }

@@ -1,16 +1,132 @@
-.texttexte {
-    display: flex;
-    flex-direction: column;
-    margin-left: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+@media only screen and (min-width: 768px) {
+    .texttexte {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .text2texte {
+        width: 100%;
+
+    }
+
+
+    /* IMAGE AVEC FOND */
+    .imagebackground {
+        padding-left: 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        background-image: url(../photo/pexels-henry-&-co-1939485.jpg);
+    }
+
+    /* IMAGE A DROITE */
+
+    .imagedroite {
+        padding-left: 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .texteimagedroite {
+        width: 70%;
+    }
+
+    .photoimagedroite {
+        width: 30%;
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    /* IMAGE A GAUCHE */
+    .imagegauche {
+        padding-left: 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .texteimagegauche {
+        width: 70%;
+    }
+
+    .photoimagegauche {
+        width: 30%;
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+    }
+
 }
 
-.text2texte {
-    width: 75%;
-    margin: auto;
-}
+@media only screen and (max-width: 766px) {
 
-.titretexte{
-    margin-top: 50px;
+    .texttexte {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .text2texte {
+        width: 100%;
+
+    }
+
+    .titretexte {
+        margin-top: 50px;
+    }
+
+    .imagebackground {
+        padding: 20px;
+        background-image: url(../photo/pexels-henry-&-co-1939485.jpg);
+    }
+
+
+
+    .imagedroite {
+
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .texteimagedroite {
+        width: 100%;
+    }
+
+    .photoimagedroite {
+        align-items: center;
+    }
+
+
+    .imagegauche {
+
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .texteimagegauche {
+        width: 100%;
+    }
+
+    .photoimagegauche {
+        align-items: center;
+        margin-right: 50px;
+    }
 }

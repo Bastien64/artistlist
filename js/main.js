@@ -1,4 +1,4 @@
-
+// Charger la navbar
 var navbarContainer = document.getElementById("navbarbox");
 var navbarXhr = new XMLHttpRequest();
 navbarXhr.open("GET", "../htmlelements/navbar.html", true);
@@ -21,6 +21,7 @@ footerXhr.onreadystatechange = function () {
 footerXhr.send();
 
 
+// FOOTER SUR MOBILE
 function toggleParagraphs(className) {
     var paragraphs = document.querySelectorAll('.' + className);
     paragraphs.forEach(function(paragraph) {
@@ -28,13 +29,15 @@ function toggleParagraphs(className) {
     });
 }
 
+
+// PAGINATION DE ARTISTEPAGINATION.HTML
 function showPage(pageNumber, suffix = '') {
-    // Masquer toutes les pages d'albums
     var albumPages = document.querySelectorAll('.album-page' + suffix);
     albumPages.forEach(function (page) {
         page.style.display = 'none';
     });
 
-    // Afficher la page spécifiée
     document.getElementById('page' + pageNumber + suffix).style.display = 'block';
 } 
+
+

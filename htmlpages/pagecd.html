@@ -26,8 +26,10 @@
         <div class="divtopgauche">
             <div id="cover" class="cover">
                 <ul class="gallery">
-                    <li><a href="#" class="pic-1"><img itemprop="image" src="../photo/AlbumExample2.jpg" alt="Keny Arkana - Avant L'Exode" /></a></li>
-                    <li><a href="#" class="pic-2"><img src="../photo/AlbumExample4.jpg" alt="Keny Arkana - Avant L'Exode" /></a></li>
+                    <li><a href="#" class="pic-1"><img itemprop="image" src="../photo/AlbumExample2.jpg"
+                                alt="Keny Arkana - Avant L'Exode" /></a></li>
+                    <li><a href="#" class="pic-2"><img src="../photo/AlbumExample4.jpg"
+                                alt="Keny Arkana - Avant L'Exode" /></a></li>
                 </ul>
             </div>
         </div>
@@ -109,9 +111,19 @@
 
     <h3 class="mb-3 autrecd" style="text-decoration: underline;">APPARITION DE L’ARTISTE</h3>
 
-    <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div id="carouselExampleControls" class="carousel carousel-dark slide" data-interval="false">
+        <div class="carousel-indicators">
 
+            <button  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
         <div class="carousel-inner">
+
+
             <div class="carousel-item active">
                 <div class="card-wrapper container-sm d-flex  justify-content-around">
                     <div class="card border-light " style="width: 18rem;">
@@ -162,7 +174,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item ">
                 <div class="card-wrapper container-sm d-flex  justify-content-around">
                     <div class="card border-light " style="width: 18rem;">
                         <img src="../photo/AlbumExample4.jpg" class="card-img-top" alt="...">
@@ -181,30 +193,41 @@
                     <div class="card border-light" style="width: 18rem;">
                         <img src="../photo/AlbumExample4.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title fw-bold">DEMENCIA</h5>
+                            <h5 class="card-title fw-bold">DEENCIA</h5>
 
                         </div>
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="prev">
+
+
+
+            <button class="carousel-control-prev d-none d-md-block" type="button"
+                data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="next">
+            <button class="carousel-control-next d-none d-md-block" type="button"
+                data-bs-target="#carouselExampleControls" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
 
+
     </div>
     <!-- APPARITIONS -->
     <h3 class="mb-3 autrecd" style="text-decoration: underline;">AUTRES REFERENCES DE L'ARTISTE</h3>
 
-    <div id="carouselExampleControls2" class="carousel carousel-dark slide" data-bs-ride="carousel">
-
+    <div id="carouselExampleControls2" class="carousel carousel-dark slide" data-interval="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="card-wrapper container-sm d-flex  justify-content-around">
@@ -281,17 +304,19 @@
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2"
-                data-bs-slide="prev">
+            <button class="carousel-control-prev d-none d-md-block" type="button"
+                data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2"
-                data-bs-slide="next">
+            <button class="carousel-control-next d-none d-md-block" type="button"
+                data-bs-target="#carouselExampleControls2" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+
+
     </div>
 
 
