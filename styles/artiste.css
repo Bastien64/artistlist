@@ -9,163 +9,179 @@
     src: url('../police/calibri_bold.ttf') format('truetype');
     /* Ajoutez d'autres formats de police si nécessaire (e.g., woff, woff2) */
 }
-@media only screen and (min-width: 768px) { 
-/* GENERAL */
-body {
-    font-family: 'Calibri', sans-serif !important;}
-h1 {
-    font-family: 'Calibribolt', sans-serif !important;
-    color: #1E1E1E;
-font-size: 75px;
-font-style: normal;
-font-weight: 700;
-line-height: normal; 
-}
 
-h2 {
-    font-family: 'Calibribolt', sans-serif !important;
-    color: #1E1E1E;
-}
-#navbarbox {
-    position: sticky;
-    top : 0px;
-    z-index: 99;
-}
-/* TOP */
-.divtop {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 150px;
-}
+@media only screen and (min-width: 768px) {
 
-.divtopdroite {
-    margin-left: 50px;
-}
-.logotopdroite {
-    width: 40px!important;
-    margin-right: 25px!important;
-    align-items: center;
-}
+    /* GENERAL */
+    body {
+        font-family: 'Calibri', sans-serif !important;
+    }
+
+    h1 {
+        font-family: 'Calibribolt', sans-serif !important;
+        color: #1E1E1E;
+        font-size: 75px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    h2 {
+        font-family: 'Calibribolt', sans-serif !important;
+        color: #1E1E1E;
+    }
+
+    #navbarbox {
+        position: sticky;
+        top: 0px;
+        z-index: 99;
+    }
+
+    /* TOP */
 
 
-.pic-1>img {
-    width: 500px !important;
-    height: 500px !important;
-}
+    .divtop {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 150px;
+    }
+
+    .divtopdroite {
+        margin-left: 50px;
+    }
+
+    .logotopdroite {
+        width: 40px !important;
+        margin-right: 25px !important;
+        align-items: center;
+    }
+
+    /* EFFET PHOTO */
+    .pic-1>img {
+        width: 500px !important;
+        height: 500px !important;
+    }
 
 
-.pic-2>img {
-width: 500px !important;
-height: 500px !important;
-}
+    .pic-2>img {
+        width: 500px !important;
+        height: 500px !important;
+    }
 
-ul.gallery {
-list-style: none;
-}
+    ul.gallery {
+        list-style: none;
+    }
 
-ul.gallery li a {
-position: absolute;
-float: left;
-padding: 10px;
-background: #FFFFFF;
-border: 1px solid #FFFFFF;
-}
+    ul.gallery li a {
+        position: absolute;
+        float: left;
+        padding: 10px;
+        background: #FFFFFF;
+        border: 1px solid #FFFFFF;
+    }
 
-ul.gallery li a.pic-1 {
-z-index: 2;
-}
+    ul.gallery li a.pic-1 {
+        z-index: 2;
+    }
 
-ul.gallery li a.pic-2 {
-z-index: 1;
--webkit-transform: rotate(5deg);
--moz-transform: rotate(5deg);
-margin: 18px 0px 0px 25px;
-}
+    ul.gallery li a.pic-2 {
+        z-index: 1;
+        -webkit-transform: rotate(5deg);
+        -moz-transform: rotate(5deg);
+        margin: 18px 0px 0px 25px;
+    }
 
-ul.gallery li a:hover {
-z-index: 20;
-}
+    ul.gallery li a:hover {
+        z-index: 20;
+    }
 
-ul {
-    list-style-type: none;
+    /*  FIN EFFET PHOTO */
+    ul {
+        list-style-type: none;
 
-}
+    }
 
-li, .suivreariste {
-    font-size: 25px;
-    margin-top: 15px;
+    li,
+    .suivreariste {
+        font-size: 25px;
+        margin-top: 15px;
 
-}
-.divtopgauche {
-    width: 50%;
+    }
 
-}
+    .divtopgauche {
+        width: 50%;
 
-.nomartiste {
-    font-size: 50px;
-    font-weight: 900;
-    text-align: center;
-}
+    }
 
-/*ALBUM*/ 
-.albumartiste {
+    .nomartiste {
+        font-size: 50px;
+        font-weight: 900;
+        text-align: center;
+    }
 
-    width: 90vw;
-    margin: auto;
-}
+    /*ALBUM*/
+    .albumartiste {
 
-.album {
-    display: flex;
-    flex-direction: row;
-    margin-top: 50px;
-}
+        width: 90vw;
+        margin: auto;
+    }
+
+    .album {
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+    }
 
 
-.trait {
-    margin-left: 50px;
-    width: 2px;
-    height: 400px;
-    background-color: #000000;
+    .trait {
+        margin-left: 50px;
+        width: 2px;
+        height: 400px;
+        background-color: #000000;
 
-}
+    }
 
-.textalbum {
-    margin-left: 50px;
-    width: 500px;
-}
+    .textalbum {
+        margin-left: 50px;
+        width: 500px;
+    }
 
-.albumpochette {
-    width: 400px;
-height: 400px; 
-}
+    .albumpochette {
+        width: 400px;
+        height: 400px;
+    }
 
-/*APPARITIONS*/
+    /*APPARITIONS*/
 
-.Apparitionsartiste {
+    .Apparitionsartiste {
         width: 90vw;
 
         margin: auto;
 
-}
+    }
 }
 
-@media only screen and (max-width: 768px) { 
+@media only screen and (max-width: 768px) {
     body {
         font-family: 'Calibri', sans-serif !important;
     }
+
     h1 {
         font-family: 'Calibribolt', sans-serif !important;
         color: #1E1E1E;
-    font-size: 45px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal; 
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
     }
+
     h2 {
         font-family: 'Calibribolt', sans-serif !important;
-        color: #1E1E1E;}
+        color: #1E1E1E;
+    }
+
     /* TOP */
     .pic-1>img {
         width: 80vw !important;
@@ -178,10 +194,10 @@ height: 400px;
 
     .cover,
     .gallery {
-        display: flex!important;
-        flex-direction: row!important;
-        justify-content: center!important;
-        align-items: center!important;
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+        align-items: center !important;
     }
 
     ul.gallery li a.pic-1 {
@@ -206,6 +222,7 @@ height: 400px;
         font-size: 40px;
         text-align: center;
     }
+
     .divtopdroite {
         margin-top: 15px;
     }
@@ -215,18 +232,19 @@ height: 400px;
         margin-right: 25px !important;
         align-items: center;
     }
+
     .phototopgauche {
         width: 100vw;
         margin: auto;
     }
-    
+
     ul {
         list-style-type: none;
-    
+
     }
 
     .suivreartiste {
-        font-size:25px
+        font-size: 25px
     }
 
     li {
@@ -234,20 +252,21 @@ height: 400px;
         margin-top: 15px;
         align-items: center;
     }
+
     .followtheartist {
-        padding-left: 20px!important;
+        padding-left: 20px !important;
     }
 
 
 
-    /*ALBUM*/ 
+    /*ALBUM*/
     .albumartiste {
-    
+
         width: 90vw;
         margin: auto;
     }
-    
-    .album{
+
+    .album {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -255,30 +274,30 @@ height: 400px;
         text-align: center;
         margin-top: 50px;
     }
-    
+
     .trait {
         width: 0px;
         height: 0px;
         background-color: white;
-    
+
     }
-    
+
     .textalbum {
         margin-top: 10px;
         width: 200px;
     }
-    
+
     .albumpochette {
         width: 150px;
-    height: 150px; 
+        height: 150px;
     }
-    
+
     /*APPARITIONS*/
-    
+
     .Apparitionsartiste {
-            width: 90vw;
-    
-            margin: auto;
-    
+        width: 90vw;
+
+        margin: auto;
+
     }
 }
