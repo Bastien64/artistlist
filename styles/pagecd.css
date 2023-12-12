@@ -380,6 +380,10 @@ h5 {
         border: white;
     }
 
+    .carousel-control-prev,.carousel-control-next {
+        width: 0px !important;
+    }
+
 
 
     /*APPARITIONS*/
