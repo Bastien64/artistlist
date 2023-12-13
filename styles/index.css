@@ -37,3 +37,7 @@
     border-radius: 50%;
 
 }
+
+#carouselExampleControls {
+    height: 400px!important;
+}
