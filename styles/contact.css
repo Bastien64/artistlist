@@ -18,11 +18,12 @@
     li {
         font-family: 'Calibri', sans-serif !important;
     }
-    #navbarbox {
-        position: sticky;
-        top : 0px;
+    .navbar {
+        position: sticky!important;
+        top: 0px;
         z-index: 99;
     }
+
     .texte {
         color: #000;
         font-family: 'Calibri', sans-serif !important;        font-size: 10px;

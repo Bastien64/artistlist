@@ -1,8 +1,9 @@
-#navbarbox {
-    position: sticky;
-    top : 0px;
+.navbar {
+    position: sticky!important;
+    top: 0px;
     z-index: 99;
 }
+
 
 /* CAROUSEL */
 
@@ -33,11 +34,17 @@
 .carousel-indicators > button {
     margin-top: 20px!important;
     height: 10px!important;
-    width: 10px!important;
-    border-radius: 50%;
+    width: 30px!important;
+
 
 }
-
+/*CAROUSEL CONTROL AS TO BE MODIFIED IF WIDTH IMAGE*/
 #carouselExampleControls {
     height: 400px!important;
+}
+
+.divundercarousel {
+    height: 150px;
+    margin-bottom: 150px;
+    margin-top: 150px;
 }

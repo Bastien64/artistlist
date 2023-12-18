@@ -11,6 +11,11 @@
         width: 100%;
 
     }
+    .navbar {
+        position: sticky!important;
+        top: 0px;
+        z-index: 99;
+    }
 
 
     /* IMAGE AVEC FOND */

@@ -26,11 +26,12 @@ h2 {
     font-family: 'Calibribolt', sans-serif !important;
     color: #1E1E1E;
 }
-#navbarbox {
-    position: sticky;
-    top : 0px;
+.navbar {
+    position: sticky!important;
+    top: 0px;
     z-index: 99;
 }
+
 /* TOP */
 .divtop {
     display: flex;

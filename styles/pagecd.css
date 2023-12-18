@@ -35,11 +35,12 @@
     .colorgrey {
         color: grey;
     }
-    #navbarbox {
-        position: sticky;
-        top : 0px;
+    .navbar {
+        position: sticky!important;
+        top: 0px;
         z-index: 99;
     }
+
     /* TOP */
 
      /* EFFET PHOTO */
@@ -213,11 +214,12 @@ h5 {
 }
 
 .carousel-indicators > button {
+    margin-top: 20px!important;
     height: 10px!important;
-    width: 10px!important;
-    border-radius: 50%;
-
+    width: 30px!important;
 }
+
+
 /*APPARITIONS*/
 }
 
@@ -391,6 +393,8 @@ h5 {
     #carouselExampleControls, #carouselExampleControls2 {
         height: 975px;
     }
+
+    
     /*APPARITIONS*/
 
 
